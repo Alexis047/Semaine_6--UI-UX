@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+#wrapper1 {
+  background-image: url(Img/pasteque-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+header li {
+  margin-right: 60px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.active {
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.btn {
+  background-color: #FD0D07;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 500px;
+}
+
+main {
+  padding-left: 150px;
+  color: white;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 150px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-weight: 500;
+  margin-bottom: 10px;
+  width: 500px;
+  letter-spacing: 1px;
+}
+
+span {
+  font-weight: 700;
+}
+
+.img-flex-container {
+  display: flex;
+  margin-top: 60px;
+}
+
+.img-flex-container img {
+  width: 100px;
+  height: 150px;
+  margin-right: 50px;
+}
+
+.quarter-circle {
+  width: 1050px;
+  height: 950px;
+  background-color: white;
+  opacity: 38%;
+  position: absolute;
+  bottom: -475px;
+  right: -525px;
+  /* top: 50%; */
+  /* left: 50%; */
+  transform: /*translate(-50%, -50%)*/ rotate(150deg);
+  border-radius: 50%;
+}
+
+.rotate {
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  transform: rotate(-40deg) scale(1.2);
+}
+
+.arrow-down {
+  color: white;
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: scale(3);
+}
+
+/* wrapper2 */
+
+#wrapper2 {
+  height: 100vh;
+  background-image: url(Img/background-restau.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#wrapper2 h2 {
+  padding-top: 90px;
+}
+
+#wrapper2 p {
+  width: 900px;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 100px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-container img, .column img {
+  margin-right: 30px;
+}
+
+.arrow-up {
+  color: white;
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  transform: scale(3) rotate(180deg);
+}
