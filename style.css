@@ -18,12 +18,19 @@ body {
 }
 
 #wrapper1 {
-  background-image: url(Img/pasteque-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   position: relative;
   overflow: hidden;
+}
+
+.ruby {
+  background-image: url(Img/pasteque-bg.png);
+}
+
+.citron {
+  background-image: url(Img/citron-bg.png);
 }
 
 header {
@@ -41,9 +48,16 @@ header ul {
   align-items: center;
 }
 
+.white {
+  color: white; 
+}
+
+.black {
+  color: black;
+}
+
 header li {
   margin-right: 60px;
-  color: white;
   font-size: 20px;
   font-weight: 600;
 }
@@ -52,8 +66,19 @@ header li {
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
-.btn {
+.active-white {
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+.ruby-btn {
   background-color: #FD0D07;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 500px;
+}
+
+.citron-btn {
+  background-color: #FBEF99;
   padding: 15px;
   border: 2px solid white;
   border-radius: 500px;
@@ -84,7 +109,7 @@ main p {
   letter-spacing: 1px;
 }
 
-span {
+strong {
   font-weight: 700;
 }
 
@@ -97,6 +122,7 @@ span {
   width: 100px;
   height: 150px;
   margin-right: 50px;
+  cursor: pointer;
 }
 
 .quarter-circle {
